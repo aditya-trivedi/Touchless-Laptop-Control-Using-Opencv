@@ -10,5 +10,6 @@ Before The user starts using the application , the user must :
     cv2.createTrackbar("U-H","Trackbars",180,180,nothing)  
     cv2.createTrackbar("U-S","Trackbars",255,255,nothing)  
     cv2.createTrackbar("U-V","Trackbars",255,255,nothing)  
+    (The Above is for Orangish-Red)  
 2. L referes to lower hsv values, while U refers to upper HSV values.  
 3. The above step is performed to ensure the colour of pen is distinguished from background.  
